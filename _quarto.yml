@@ -1,0 +1,80 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  open-graph: true
+  site-url: https://samanthacsik.github.io/ #https://github.com/laislrodrigues
+  # cookie-consent: 
+  #   type: express 
+  #   style: headline
+  #   palette: dark
+  favicon: images/tapir-paw_003.png
+  google-analytics: 
+    tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
+    anonymize-ip: true
+  navbar:
+    title: "Laís Lautenschlager, Ph.D. candidate"
+    right:
+      - href: index.qmd
+        text: home
+      - about.qmd
+      - href: projects.qmd
+        text: publications
+      - href: cv.qmd
+        text: CV
+      # - resources.qmd
+      #   target: _blank
+      - text: contact
+        menu:
+          - icon: twitter
+            text: Twitter
+            href: https://twitter.com/Lais_LRodrigues
+            target: _blank
+          - icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/lais-lautenschlager-rodrigues/
+            target: _blank
+          - icon: fa6-brands:researchgate
+            text: ResearchGate
+            href: https://www.researchgate.net/profile/Lais-Rodrigues-3
+            target: _blank
+          - icon: google
+            text: Google Scholar
+            href: https://scholar.google.com/citations?user=IbKbf0IAAAAJ&hl=pt-BR
+            target: _blank
+          - icon: envelope
+            text: email
+            href: mailto:rodrigues.eco12@gmail.com
+          - icon: github
+            text: GitHub
+            href: https://github.com/laislrodrigues
+            target: _blank
+  page-footer: 
+    background: light
+    left: Copyright 2024, LLR - inspired by [Samantha Csik's](https://samanthacsik.github.io/) website
+    #right: 
+    # right: 
+    #   - icon: github
+    #     href: https://github.com/samanthacsik
+    #   - icon: twitter
+    #     href: https://twitter.com/SamanthaCsik
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/samanthacsik/
+    #   - icon: envelope
+    #     href: mailto:scsik@ucsb.edu
+  # reader-mode: true
+  # repo-url: https://github.com/samanthacsik/samanthacsik-quarto-website
+  # repo-actions: [edit, issue]
+
+format:
+  html:
+    page-layout: full
+    sidebar: false
+    theme: 
+      - styles.scss
+    # css: styles.css
+    mainfont: Georgia
+    toc: true
+
+#Playfair Display

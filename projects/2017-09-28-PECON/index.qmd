@@ -1,0 +1,19 @@
+---
+title: "Rewilding defaunated Atlantic Forests with tortoises to restore lost seed dispersal functions"
+description: |
+  Here we explored the use of two tortoise species, the red-footed tortoise *Chelonoidis carbonarius* and the yellow-footed tortoise *Chelonoidis denticulatus*, as ecological substitutes for locally extinct large seed dispersers
+  
+date: 2017-09-28
+categories: [Scientific Articles]
+image: PECON_02.jpg
+draft: false
+---
+
+# Rewilding defaunated Atlantic Forests with tortoises to restore lost seed dispersal functions
+
+The extinction of frugivores has been considered one of the main drivers of the disruption of important ecological processes, such as seed dispersal. Many defaunated forests are too small to restore function by reintroducing large frugivores, such as tapirs or Ateline monkeys, and the long-term fate of large-seeded plants in these areas is uncertain. However, such small fragments still host many species and play relevant ecosystem services. Here, we explore the use of two tortoise species, the red-footed tortoise (*Chelonoidis carbonarius*) and the yellow-footed tortoise (*Chelonoidis denticulatus*), as ecological substitutes for locally extinct large seed dispersers in small forest patches in the Brazilian Atlantic Forest. We employed prior knowledge on the known occurrences of *Chelonoidis* species and used ecological niche modeling (ENM) to identify forest patches for tortoise rewilding. Based on habitat suitability, food availability and conservation co-benefits, we further refined our analysis and identified that the more suitable areas for tortoise reintroduction are forest patches of northern Atlantic Forest, areas with high defaunation intensity. Giant tortoises have been used to restore lost ecological services in island ecosystems. We argue that reintroducing relatively smaller tortoises is an easy-to-use/control conservation measure that could be employed to partially substitute the seed dispersal services of extinct large disperser species, mitigating the negative cascading effects of defaunation on reducing plant diversity.
+
+
+SOBRAL-SOUZA, T., LAUTENSCHLAGER, L., et al. (2017). *Perspectives in ecology and conservation*
+
+DOI: [10.1016/j.pecon.2017.08.005](https://www.sciencedirect.com/science/article/pii/S2530064417300731?via%3Dihub)

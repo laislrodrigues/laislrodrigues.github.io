@@ -1,0 +1,39 @@
+---
+title: "Laís Lautenschlager"
+image: images/Lais_photo_02.jpg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 16em
+  links:
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Lais-Rodrigues-3
+      target: _blank
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=IbKbf0IAAAAJ&hl=pt-BR
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lais-lautenschlager-rodrigues/
+      target: _blank
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Lais_LRodrigues
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/laislrodrigues
+      target: _blank
+    - icon: envelope
+      text: Email
+      href: mailto:rodrigues.eco12@gmail.com
+---
+
+<!-- ::: {.small-text} -->
+Hello! My name is Laís, and I'm a passionate field ecologist from Brazil.  
+I'm also a fourth-year Ph.D. candidate in Biology at the University of Miami. In this website you will find more info about myself (professionally and off-cameras), my academic career, and more! 
+
+<!-- ::: -->

@@ -1,0 +1,10 @@
+---
+title: "Curriculum Vitae"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(fontawesome)
+```
+
+<embed src="CV/CV_LLR_2024.pdf" type="application/pdf" width="100%" height="600px" />
