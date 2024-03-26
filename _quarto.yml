@@ -35,7 +35,7 @@ website:
             text: LinkedIn
             href: https://www.linkedin.com/in/lais-lautenschlager-rodrigues/
             target: _blank
-          - icon: fa6-brands:researchgate
+          - icon: researchgate
             text: ResearchGate
             href: https://www.researchgate.net/profile/Lais-Rodrigues-3
             target: _blank
@@ -43,13 +43,13 @@ website:
             text: Google Scholar
             href: https://scholar.google.com/citations?user=IbKbf0IAAAAJ&hl=pt-BR
             target: _blank
-          - icon: envelope
-            text: email
-            href: mailto:rodrigues.eco12@gmail.com
           - icon: github
             text: GitHub
             href: https://github.com/laislrodrigues
             target: _blank
+          - icon: envelope
+            text: email
+            href: mailto:rodrigues.eco12@gmail.com
   page-footer: 
     background: light
     left: Copyright 2024, LLR - inspired by [Samantha Csik's](https://samanthacsik.github.io/) website
