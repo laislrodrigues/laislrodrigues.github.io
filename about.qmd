@@ -25,7 +25,7 @@ I have a Bachelor's degree in Ecology (2012-2016) at  the São Paulo State Unive
 knitr::include_graphics("images/Lais_photo_03.jpg")
 ```
 ::: {.extra-small-text .dark-gray-text .topbr}
-Camera trapping...
+Installing camera traps was a huge part of my Masters and Ph.D. life
 :::
 :::
 
@@ -58,9 +58,9 @@ Almost 12 years ago I found my best friend, my partner, and nowadays, my husband
 ILY, Y. <3
 
 
-## {{< fa earth-americas >}} Miami life
+## {{< fa earth-americas >}} resilience & resistance 
 
-In 2020, middle of the pandemic, I got accepted to pursue my Ph.D. in the University of Miami, FL, USA! 
+In 2020, in the middle of the pandemic (COVID-19), I got accepted to pursue my Ph.D. in the University of Miami, FL, USA. After one year doing everything remotely, in 2021 I finally got my student visa and bought a one-way ticket to Miami! 
 
 :::{.column-margin}
 ```{r}
@@ -69,34 +69,13 @@ In 2020, middle of the pandemic, I got accepted to pursue my Ph.D. in the Univer
 knitr::include_graphics("images/UMiami.jpg")
 ```
 ::: {.extra-small-text .dark-gray-text .topbr}
-Yuri and I being Hurricanes together
+Yuri and I being Hurricanes together <3
 :::
 :::
 
-to be continued. 
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
-to be continued.
+It was my first time traveling to another country completely by myself. Also my first time in which I would rely completely on my English (thanks to years of 'CCAA' language course!) and communication/survival skills. 
+I must say, it was/is not easy. Miami has this wild vibe, and full of 'latinos' everywhere - at least my Spanish definitely improved. It is a total different experience living in another country with distinct costumes, cuisine, rules, and AC at home 24h a day.
+
+Anyway, I would say I adapted - as much as I could.
+Even doing my project in Brazil and traveling there for a few months every year, Miami do not scare me anymore (just a little bit). 
+Yuri also applied and moved here with me in 2022, and we are both surviving everyday to this crazy academic life.

@@ -15,6 +15,8 @@ website:
     anonymize-ip: true
   navbar:
     title: "Laís Lautenschlager, Ph.D. candidate"
+    logo: images/logos/tapir-paw_003.png
+    logo-alt: "Tapir paw"
     right:
       - href: index.qmd
         text: home
@@ -35,7 +37,7 @@ website:
             text: LinkedIn
             href: https://www.linkedin.com/in/lais-lautenschlager-rodrigues/
             target: _blank
-          - icon: researchgate
+          - icon: laptop
             text: ResearchGate
             href: https://www.researchgate.net/profile/Lais-Rodrigues-3
             target: _blank

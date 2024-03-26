@@ -7,7 +7,7 @@ about:
   image-shape: round
   image-width: 16em
   links:
-    - icon: researchgate
+    - icon: laptop
       text: ResearchGate
       href: https://www.researchgate.net/profile/Lais-Rodrigues-3
       target: _blank
