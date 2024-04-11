@@ -4,14 +4,14 @@ project:
 
 website:
   open-graph: true
-  site-url: https://samanthacsik.github.io/ #https://github.com/laislrodrigues
-  # cookie-consent: 
-  #   type: express 
-  #   style: headline
-  #   palette: dark
+  site-url: https://github.com/laislrodrigues
+   cookie-consent: 
+     type: express 
+     style: headline
+     palette: dark
   favicon: images/tapir-paw_003.png
   google-analytics: 
-    tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
+    tracking-id: "G-96FQW540LB"
     anonymize-ip: true
   navbar:
     title: "Laís Lautenschlager, Ph.D. candidate"
