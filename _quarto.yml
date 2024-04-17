@@ -4,7 +4,7 @@ project:
 
 website:
   open-graph: true
-  site-url: https://github.com/laislrodrigues
+  site-url: https://laislrodrigues.github.io/
    cookie-consent: 
      type: express 
      style: headline
