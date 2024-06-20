@@ -1,7 +1,7 @@
 ---
 title: "Communal tapir latrines are foraging sites for tropical forest vertebrates"
 description: |
-  Lowland tapir latrines are secondary food resources for some vertebrate species in a tropical forest - check this out!  
+  Lowland tapir latrines are food resource sites for some vertebrate species in a tropical forest - check this out! 
   
 date: 2024-04-18
 categories: [Scientific Articles]
