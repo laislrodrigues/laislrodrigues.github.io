@@ -1,0 +1,18 @@
+---
+title: "Camera trap surveys of Atlantic Forest mammals: A data set for analyses considering imperfect detection (2004–2020)"
+description: |
+  In this data paper we compiled camera traps information related to mammalian species for 16 years throughout the entire Atlantic Forest biome
+  
+date: 2024-04-12
+categories: [Scientific Articles]
+image: ecology_camtrap.png
+draft: false
+---
+
+
+Camera traps became the main observational method of a myriad of species over large areas. Data sets from camera traps can be used to describe the patterns and monitor the occupancy, abundance, and richness of wildlife, essential information for conservation in times of rapid climate and land-cover changes. Habitat loss and poaching are responsible for historical population losses of mammals in the Atlantic Forest biodiversity hotspot, especially for medium to large-sized species. Here we present a data set from camera trap surveys of medium to large-sized native mammals (>1kg) across the Atlantic Forest. We compiled data from 5380 ground-level camera trap deployments in 3046 locations, from 2004 to 2020, resulting in 43,068 records of 58 species. These data add to existing data sets of mammals in the Atlantic Forest by including dates of camera operation needed for analyses dealing with imperfect detection. We also included, when available, information on important predictors of detection, namely the camera brand and model, use of bait, and obstruction of camera viewshed that can be measured from example pictures at each camera location. Besides its application in studies on the patterns and mechanisms behind occupancy, relative abundance, richness, and detection, the data set presented here can be used to study species' daily activity patterns, activity levels, and spatiotemporal interactions between species. Moreover, data can be used combined with other data sources in the multiple and expanding uses of integrated population modeling. An R script is available to view summaries of the data set. We expect that this data set will be used to advance the knowledge of mammal assemblages and to inform evidence-based solutions for the conservation of the Atlantic Forest. The data are not copyright restricted; please cite this paper when using the data.
+
+
+FRANCESCHI, I. C. et al. *Ecology*
+
+DOI: [10.1002/ecy.4298](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4298)

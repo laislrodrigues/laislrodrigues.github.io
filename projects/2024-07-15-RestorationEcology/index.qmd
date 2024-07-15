@@ -1,0 +1,18 @@
+---
+title: "Resurrecting plant–animal interactions in the Caribbean can benefit large-fruited plants"
+description: |
+  Here we investigated the consequences of losing large-bodied animal populations on fruit–frugivore interactions in the Caribbean archipelago
+  
+date: 2024-07-15
+categories: [Scientific Articles]
+image: RestEco-figmap.png
+draft: false
+---
+
+
+Many plants benefit from seed dispersal by frugivorous animals. This mutualistic interaction depends largely on interaction-relevant matching of functional traits (i.e. fruit size of plants and gape size of frugivores). With declines in large-bodied animal populations, it is likely that fruit–frugivore interactions have eroded, leading to the loss of seed dispersal of large-fruited plants. Such erosion could be especially evident in vulnerable island ecosystems such as those in the Caribbean, where most large-bodied frugivore populations have collapsed due to human activities. Here, we aim to understand the consequences of this decline by first quantifying gaps in frugivory function between common, smaller frugivores (birds, smaller reptiles, and bats) and rarer or regionally extinct, larger reptiles (*Cyclura spp.* and *Chelonoidis spp.*) in the Caribbean archipelagos. We then assess the benefits of reestablishing these interactions by determining the effects of large reptile ingestion on seed germination for 10 fruiting species, representing a range of fruit sizes, native to the Caribbean. We found that there are significant gaps in frugivory function, with smaller frugivores having many times smaller mean gape sizes than larger reptiles. Furthermore, we found that most fruiting species used in this study could germinate after being consumed by large reptiles, with two species having their germination speed significantly accelerated post-ingestion. These results indicate that fruiting plants could benefit from reestablishing frugivorous interactions between larger reptiles and fruiting plants. Given the existing gap in frugivory function, additional attention should be given to the possibility of rewilding defaunated islands to restore plant–frugivore networks.
+
+
+KIM, S., LAUTENSCHLAGER, L., TARAZONA-TUBENS, F. L., ABELS, J., LLORET, M., PARK, T., MALCOLM-PARKER, A., GALETTI, M., SEARCY, C. (2024). *Restoration Ecology*
+
+DOI: [10.1111/rec.14233](https://onlinelibrary.wiley.com/doi/10.1111/rec.14233)

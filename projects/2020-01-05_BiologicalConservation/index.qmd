@@ -9,7 +9,6 @@ image: mendes2019.jpg
 draft: false
 ---
 
-# Landscape of human fear in Neotropical rainforest mammals
 
 The landscape of fear has profound effects on the species behavior, with most organisms engaging in risk avoidance behaviors in areas perceived as riskier. Most risk avoidance behaviors, such as temporal avoidance, have severe trade-offs between foraging efficiency and risk reduction. Human activities are able to affect the species landscape of fear, by increasing mortality of individuals (i.e. hunting, roadkill) and by disruption of the clues used by the species to estimate predation risk (e.g. light pollution). In this study, we used an extensive camera-trapping and night-time light satellite imagery to evaluate whether human activities affect the diel activity patterns of 17 species of rainforest dwelling mammals. We found evidence of diel activity shifts in eight of 17 analyzed species, in which five species become 21.6 % more nocturnal and three species become 11.7% more diurnal in high disturbed areas. This activity shifts were observed for both diurnal and nocturnal species. Persecuted species (game and predators) were more susceptible to present activity shifts. Since changes in foraging activity may affect species fitness, the behavior of humans’ avoidance may be another driver of the Anthropocene defaunation.
 

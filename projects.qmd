@@ -1,6 +1,6 @@
 ---
 title: "publications"
-subtitle: "check it out some interesting papers I've published over the years :)" 
+subtitle: "check it out some interesting papers I published over the years :)" 
 listing:
   contents: projects
   feed: true
