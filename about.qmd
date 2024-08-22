@@ -53,7 +53,7 @@ Black Sabbath concert in 2013
 :::
 :::
 
-Almost 12 years ago I found my best friend, my partner, and nowadays, my husband. I was so lucky to find another ecologist, a brilliant scientist, a super nerd with the kindest heart - and since then, we are sharing this crazy life together. 
+Almost 13 years ago I found my best friend, my partner, and nowadays, my husband. I was so lucky to find another ecologist, a brilliant scientist, a super nerd with the kindest heart - and since then, we are sharing this crazy life together. 
 
 ILY, Y. <3
 
@@ -69,7 +69,7 @@ In 2020, in the middle of the pandemic (COVID-19), I got accepted to pursue my P
 knitr::include_graphics("images/UMiami.jpg")
 ```
 ::: {.extra-small-text .dark-gray-text .topbr}
-Yuri and I being Hurricanes together <3
+Yuri and I being UM Hurricanes together <3
 :::
 :::
 
@@ -78,4 +78,4 @@ I must say, it was/is not easy. Miami has this wild vibe, and full of 'latinos' 
 
 Anyway, I would say I adapted - as much as I could.
 Even doing my project in Brazil and traveling there for a few months every year, Miami do not scare me anymore (just a little bit). 
-Yuri also applied and moved here with me in 2022, and now I can call this place as "home" :)
+Yuri also applied and moved here with me in 2022, and now we can call this place as "home" (temporarily) :)
