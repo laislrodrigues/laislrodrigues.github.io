@@ -14,9 +14,11 @@ para adicionar um novo artigo:
 -cria uma nova pasta com a data e nome
 -dentro dessa pasta vc coloca um index (copia de outro lugar) e a figura que vc quer que apareça
 -edita esse index igual os outros
--Render e salva tudo
+-Render o index.qmd, Render o website, e salva tudo
 
 - sobe pro Git qd acabar
+
+-------------------
 
 para alterar o CV:
 -pasta "CV"
