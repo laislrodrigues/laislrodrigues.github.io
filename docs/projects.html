@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,8 +63,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -100,23 +108,47 @@ gtag('js', new Date());
 gtag('config', 'G-96FQW540LB', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="publications">
 <meta property="og:description" content="check it out some interesting papers I published over the years :)">
-<meta property="og:image" content="https://laislrodrigues.github.io/projects/2024-09-02-UrbanForestyandUrbanGreening/Kullberg-pic01.png">
-<meta property="og:image:height" content="398">
-<meta property="og:image:width" content="447">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./images/logos/tapir-paw_003.png" alt="Tapir paw" class="navbar-logo">
     </a>
@@ -125,68 +157,68 @@ gtag('config', 'G-96FQW540LB', { 'anonymize_ip': true});
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">about me</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">about me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" rel="" target="" aria-current="page">
- <span class="menu-text">publications</span></a>
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contact" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contact" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">contact</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contact">    
         <li>
-    <a class="dropdown-item" href="https://twitter.com/Lais_LRodrigues" rel="" target="_blank"><i class="bi bi-twitter" role="img">
+    <a class="dropdown-item" href="https://twitter.com/Lais_LRodrigues" target="_blank"><i class="bi bi-twitter" role="img">
 </i> 
  <span class="dropdown-text">Twitter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.linkedin.com/in/lais-lautenschlager-rodrigues/" rel="" target="_blank"><i class="bi bi-linkedin" role="img">
+    <a class="dropdown-item" href="https://www.linkedin.com/in/lais-lautenschlager-rodrigues/" target="_blank"><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="dropdown-text">LinkedIn</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.researchgate.net/profile/Lais-Rodrigues-3" rel="" target="_blank"><i class="bi bi-laptop" role="img">
+    <a class="dropdown-item" href="https://www.researchgate.net/profile/Lais-Rodrigues-3" target="_blank"><i class="bi bi-laptop" role="img">
 </i> 
  <span class="dropdown-text">ResearchGate</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://scholar.google.com/citations?user=IbKbf0IAAAAJ&amp;hl=pt-BR" rel="" target="_blank"><i class="bi bi-google" role="img">
+    <a class="dropdown-item" href="https://scholar.google.com/citations?user=IbKbf0IAAAAJ&amp;hl=pt-BR" target="_blank"><i class="bi bi-google" role="img">
 </i> 
  <span class="dropdown-text">Google Scholar</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/laislrodrigues" rel="" target="_blank"><i class="bi bi-github" role="img">
+    <a class="dropdown-item" href="https://github.com/laislrodrigues" target="_blank"><i class="bi bi-github" role="img">
 </i> 
  <span class="dropdown-text">GitHub</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="mailto:rodrigues.eco12@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="dropdown-item" href="mailto:rodrigues.eco12@gmail.com"><i class="bi bi-envelope" role="img">
 </i> 
  <span class="dropdown-text">email</span></a>
   </li>  
     </ul>
   </li>
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -200,7 +232,7 @@ gtag('config', 'G-96FQW540LB', { 'anonymize_ip': true});
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -224,13 +256,14 @@ gtag('config', 'G-96FQW540LB', { 'anonymize_ip': true});
 
 
 
+
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Scientific Articles" data-listing-date-sort="1725249600000" data-listing-file-modified-sort="1728660876338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="0" data-categories="Scientific Articles" data-listing-date-sort="1725249600000" data-listing-file-modified-sort="1728660876338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304">
 <a href="./projects/2024-09-02-UrbanForestyandUrbanGreening/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2024-09-02-UrbanForestyandUrbanGreening/Kullberg-pic01.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2024-09-02-UrbanForestyandUrbanGreening/Kullberg-pic01.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -251,11 +284,11 @@ Sep 2, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Scientific Articles" data-listing-date-sort="1721016000000" data-listing-file-modified-sort="1721071363006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="1" data-categories="Scientific Articles" data-listing-date-sort="1721016000000" data-listing-file-modified-sort="1721071363006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
 <a href="./projects/2024-07-15-RestorationEcology/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2024-07-15-RestorationEcology/RestEco-figmap.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2024-07-15-RestorationEcology/RestEco-figmap.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -276,11 +309,11 @@ Jul 15, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Scientific Articles" data-listing-date-sort="1718596800000" data-listing-file-modified-sort="1721071328340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="2" data-categories="Scientific Articles" data-listing-date-sort="1718596800000" data-listing-file-modified-sort="1721071328340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
 <a href="./projects/2024-06-17-PNAS/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2024-06-17-PNAS/PNAS-fig02.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2024-06-17-PNAS/PNAS-fig02.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -301,11 +334,11 @@ Jun 17, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Scientific Articles" data-listing-date-sort="1713412800000" data-listing-file-modified-sort="1721071271573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="3" data-categories="Scientific Articles" data-listing-date-sort="1713412800000" data-listing-file-modified-sort="1721071271573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="371">
 <a href="./projects/2024-04-18-GECCO/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2024-04-18-GECCO/squirrell-latrine02.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2024-04-18-GECCO/squirrell-latrine02.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -326,11 +359,11 @@ Apr 18, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Scientific Articles" data-listing-date-sort="1712894400000" data-listing-file-modified-sort="1721071233022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="4" data-categories="Scientific Articles" data-listing-date-sort="1712894400000" data-listing-file-modified-sort="1721071233022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
 <a href="./projects/2024-04-12-EcologyDatapaper/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2024-04-12-EcologyDatapaper/ecology_camtrap.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2024-04-12-EcologyDatapaper/ecology_camtrap.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -351,11 +384,11 @@ Apr 12, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Scientific Articles" data-listing-date-sort="1710907200000" data-listing-file-modified-sort="1721068136488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="5" data-categories="Scientific Articles" data-listing-date-sort="1710907200000" data-listing-file-modified-sort="1721068136488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
 <a href="./projects/2024-03-20-FYMinds/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2024-03-20-FYMinds/latrines.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2024-03-20-FYMinds/latrines.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -376,11 +409,11 @@ Mar 20, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Scientific Articles" data-listing-date-sort="1652673600000" data-listing-file-modified-sort="1721071189450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="6" data-categories="Scientific Articles" data-listing-date-sort="1652673600000" data-listing-file-modified-sort="1721071189450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
 <a href="./projects/2022-05-16-ActaOecologica/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2022-05-16-ActaOecologica/jabuti.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2022-05-16-ActaOecologica/jabuti.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -401,11 +434,11 @@ May 16, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Scientific Articles" data-listing-date-sort="1610600400000" data-listing-file-modified-sort="1721071120503" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="7" data-categories="Scientific Articles" data-listing-date-sort="1610600400000" data-listing-file-modified-sort="1721071120503" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <a href="./projects/2021-01-14-BookChapter_Galetti_etal/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2021-01-14-BookChapter_Galetti_etal/Book_TheAtlanticForest.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2021-01-14-BookChapter_Galetti_etal/Book_TheAtlanticForest.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -426,11 +459,11 @@ Jan 14, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Scientific Articles" data-listing-date-sort="1598760000000" data-listing-file-modified-sort="1721068022787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="8" data-categories="Scientific Articles" data-listing-date-sort="1598760000000" data-listing-file-modified-sort="1721068022787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <a href="./projects/2020-01-05_BiologicalConservation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2020-01-05_BiologicalConservation/mendes2019.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2020-01-05_BiologicalConservation/mendes2019.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -451,11 +484,11 @@ Aug 30, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Scientific Articles" data-listing-date-sort="1598760000000" data-listing-file-modified-sort="1721071090283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="9" data-categories="Scientific Articles" data-listing-date-sort="1598760000000" data-listing-file-modified-sort="1721071090283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
 <a href="./projects/2020-05-19-NeotropicalCarnivores/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2020-05-19-NeotropicalCarnivores/Atlantic-carnivores02.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2020-05-19-NeotropicalCarnivores/Atlantic-carnivores02.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -476,11 +509,11 @@ Aug 30, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Scientific Articles" data-listing-date-sort="1560139200000" data-listing-file-modified-sort="1721071043195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="10" data-categories="Scientific Articles" data-listing-date-sort="1560139200000" data-listing-file-modified-sort="1721071043195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
 <a href="./projects/2019-06-10-AtlanticMammals/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2019-06-10-AtlanticMammals/Atlantic-mammals_02.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2019-06-10-AtlanticMammals/Atlantic-mammals_02.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -501,11 +534,11 @@ Jun 10, 2019
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="Scientific Articles" data-listing-date-sort="1506571200000" data-listing-file-modified-sort="1721068004907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="11" data-categories="Scientific Articles" data-listing-date-sort="1506571200000" data-listing-file-modified-sort="1721068004907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
 <a href="./projects/2017-09-28-PECON/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./projects/2017-09-28-PECON/PECON_02.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/2017-09-28-PECON/PECON_02.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -566,18 +599,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -609,11 +631,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/laislrodrigues\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -623,8 +684,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -636,7 +706,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -680,6 +873,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -705,6 +899,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -767,7 +987,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2024, LLR - inspired by <a href="https://samanthacsik.github.io/">Samantha Csik’s</a> website</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2024, LLR - inspired by <a href="https://samanthacsik.github.io/">Samantha Csik’s</a> website</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -776,6 +998,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

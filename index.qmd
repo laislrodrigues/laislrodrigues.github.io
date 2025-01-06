@@ -1,6 +1,6 @@
 ---
-title: "Laís Lautenschlager"
-image: images/Lais_photo_02.jpg
+title: "Laís Lautenschlager Rodrigues"
+image: images/Lais_photo_FSD.jpg
 toc: false
 about: 
   template: jolla
@@ -33,7 +33,7 @@ about:
 ---
 
 <!-- ::: {.small-text} -->
-Hello! My name is Laís, and I'm a passionate field ecologist from Brazil.  
-I'm also a fourth-year Ph.D. candidate in Biology at the University of Miami. In this website you will find more info about myself (professionally and off-cameras), my academic career, and more! 
+Hello! My name is Laís, and I'm a field ecologist from Brazil.  
+I'm also a Ph.D. candidate in Biology at the University of Miami. In this website you will find more info about myself (professionally and off-cameras), my academic career, and more! 
 
 <!-- ::: -->
