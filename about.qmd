@@ -21,7 +21,7 @@ I have a Bachelor's degree in Ecology (2012-2016) at  the São Paulo State Unive
 :::{.column-margin}
 ```{r}
 #| echo: false
-#| fig-alt: "A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials."
+#| fig-alt: "Lais installing camera traps in Carlos Botelho State Park."
 knitr::include_graphics("images/Lais_photo_03.jpg")
 ```
 ::: {.extra-small-text .dark-gray-text .topbr}
@@ -45,7 +45,7 @@ I'm a very simple woman with easy ways to please me: cold beer, good coffee, tra
 :::{.column-margin}
 ```{r}
 #| echo: false
-#| fig-alt: "A smiling woman with braiding pigtails, a blue bandana tied around her neck, and a blue hiking backback takes a selfie with a brown dog. The dog is looking towards the camera with it's tongue out. There are mountains in the background."
+#| fig-alt: "Yuri and I at the Black Sabbath concert in 2013."
 knitr::include_graphics("images/Yuri_01.jpg")
 ```
 ::: {.extra-small-text .dark-gray-text .topbr}
@@ -53,7 +53,7 @@ Black Sabbath concert in 2013
 :::
 :::
 
-Almost 13 years ago I found my best friend, my partner, and nowadays, my husband. I was so lucky to find another ecologist, a brilliant scientist, a super nerd with the kindest heart - and since then, we are sharing this crazy life together. 
+13 years ago I found my best friend, my partner, and nowadays, my husband. I was so lucky to find another ecologist, a brilliant scientist, a super nerd with the kindest heart - and since then, we are sharing this crazy life together. 
 
 ILY, Y. <3
 
@@ -65,17 +65,17 @@ In 2020, in the middle of the pandemic (COVID-19), I got accepted to pursue my P
 :::{.column-margin}
 ```{r}
 #| echo: false
-#| fig-alt: "A smiling woman with braiding pigtails, a blue bandana tied around her neck, and a blue hiking backback takes a selfie with a brown dog. The dog is looking towards the camera with it's tongue out. There are mountains in the background."
-knitr::include_graphics("images/UMiami.jpg")
+#| fig-alt: "selfie with my beloved husband."
+knitr::include_graphics("images/LaisandYuri.jpg")
 ```
 ::: {.extra-small-text .dark-gray-text .topbr}
-Yuri and I being UM Hurricanes together <3
+One of our favorite hobbies: birdwatching <3
 :::
 :::
 
-It was my first time traveling to another country completely by myself. Also my first time in which I would rely completely on my English (thanks to years of 'CCAA' language course!) and communication/survival skills. 
+It was my first time traveling to another country completely by myself. Also my first time in which I would rely completely on my English (thanks to years of language lessons!) and communication/survival skills. 
 I must say, it was/is not easy. Miami has this wild vibe, and full of 'latinos' everywhere - at least my Spanish definitely improved. It is a total different experience living in another country with distinct costumes, cuisine, rules, and AC at home 24h a day.
 
 Anyway, I would say I adapted - as much as I could.
 Even doing my project in Brazil and traveling there for a few months every year, Miami do not scare me anymore (just a little bit). 
-Yuri also applied and moved here with me in 2022, and now we can call this place as "home" (temporarily) :)
+I have my husband and my cats with me here, so I can call this place as "home" (temporarily) :)
