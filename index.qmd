@@ -34,6 +34,7 @@ about:
 
 <!-- ::: {.small-text} -->
 Hello! My name is Laís, and I'm a field ecologist from Brazil.  
-I'm also a Ph.D. candidate in Biology at the University of Miami. In this website you will find more info about myself (professionally and off-cameras), my academic career, and more! 
+I'm also a Ph.D. candidate in Biology at the University of Miami. 
+In this website you will find more info about myself (professionally and off-cameras), my academic career, and more! :)
 
 <!-- ::: -->
