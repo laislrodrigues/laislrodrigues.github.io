@@ -1,0 +1,18 @@
+---
+title: "Plant Diversity and Endemism of the Sierra Nevada de Santa Marta, Colombia, with Floristic Comparisons to Surrounding Mountains"
+
+description: |
+  In this study, we characterized the flora of the SNSM, using occurrence records and a literature review, to compile a list of all known seed plants endemic to the SNSM montane flora.
+  
+date: 2025-02-07
+categories: [Scientific Articles]
+image: AnnalsBotGarden-Figure.png
+draft: false
+---
+
+The Sierra Nevada de Santa Marta (SNSM) is a large, isolated mountain on Colombia’s Caribbean coast. Its isolation has led to high diversity and endemism in its fauna; however, knowledge of the mountain’s floristics remains limited. Here, we aim to better characterize the flora of the SNSM above 1700 m.s.m. Using occurrence records and a literature review, we compile a list of all known seed plants endemic to the SNSM montane flora and perform biogeographical analyses to compare the cloud forest and páramo floras of the SNSM to those of surrounding mountain ranges in the northern Andes and Central America. We first compared broad patterns in collection efforts and species diversity across mountain ranges. We then analyzed the elevational limits of plant species on the SNSM and surrounding mountain ranges to test for the Massenerhebung effect (i.e., the phenomenon that species have higher elevational limits on large mountains rather than small mountains). Finally, we performed a cluster analysis to explore compositional similarities among floras. We identified 164 plant species that are endemic to the SNSM and that occur above 1700 m.s.m., the largest list of SNSM endemics to date. Overall, the SNSM has lower plant diversity than surrounding mountain ranges but also much lower collection effort, indicating a need for continued botanical exploration of the mountain. Our analysis supported the Massenerhebung effect, with the SNSM showing lower elevational limits when compared to larger mountain ranges. The cloud forest and páramo floras of the SNSM were most similar to those of the Cordillera de Mérida in Venezuela. Our results highlight the importance of increasing efforts to explore and conserve the SNSM’s unique flora.
+
+
+FORTIER, R. P., KULLBERG, A. T., ARAGÓN, L., BERNAL-ESCOBAR, M., CONTRERAS, M. P., HURTADO, C. P., *LAUTENSCHLAGER, L.* & FEELEY, K. J. (2025). *Annals of the Missouri Botanical Garden*
+
+DOI: [10.3417/2025921](https://doi.org/10.3417/2025921)
