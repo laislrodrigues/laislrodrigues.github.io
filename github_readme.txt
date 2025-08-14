@@ -4,7 +4,7 @@ git add .
 
 git commit -m "20240305_v1" (exemplo da mensagem)
 
-git push
+git push (ou git push origin main ***quando eu tava atualizando pelo Lenovo em Miami***)
 
 ___________________
 
