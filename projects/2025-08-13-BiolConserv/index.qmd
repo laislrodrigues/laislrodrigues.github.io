@@ -6,7 +6,7 @@ description: |
   
 date: 2025-08-14
 categories: [Scientific Articles]
-image: paper-fig-new.png
+image: paper-fig-newmap.png
 draft: false
 ---
 
