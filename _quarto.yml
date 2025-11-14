@@ -15,7 +15,7 @@ website:
     anonymize-ip: true
     #title: "Lais" 
   navbar:
-    title: "Laís Lautenschlager, Ph.D. candidate"
+    title: "Laís Lautenschlager, Ph.D."
     logo: images/logos/tapir-paw_003.png
     logo-alt: "Tapir paw"
     right:
@@ -55,7 +55,7 @@ website:
             href: mailto:rodrigues.eco12@gmail.com
   page-footer: 
     background: light
-    left: Copyright 2024, LLR - inspired by [Samantha Csik's](https://samanthacsik.github.io/) website
+    left: Copyright 2025, LLR - inspired by [Samantha Csik's](https://samanthacsik.github.io/) website
     #right: 
     # right: 
     #   - icon: github
