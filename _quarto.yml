@@ -15,7 +15,7 @@ website:
     anonymize-ip: true
     #title: "Lais" 
   navbar:
-    title: "Laís Lautenschlager, Ph.D. candidate"
+    title: "Laís Lautenschlager, Ph.D."
     logo: images/logos/tapir-paw_003.png
     logo-alt: "Tapir paw"
     right:

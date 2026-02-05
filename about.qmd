@@ -6,7 +6,7 @@ title-block-banner: true
 
 ## {{< fa pen-to-square >}} academically speaking...
 
-I have a Bachelor's degree in Ecology (2012-2016) at  the São Paulo State University (UNESP), in my hometown Rio Claro, São Paulo, Brazil. For my undergraduate thesis, I joined the Conservation Biology Lab (LABIC) with Dr. Mauro Galetti, where I developed my first research that aimed to understand the ecological role of frugivory and seed dispersal by the Red-footed tortoise *Chelonoidis carbonaria*.
+I have a Bachelor's degree in Ecology (2012–2016) from São Paulo State University (UNESP) in my hometown of Rio Claro, São Paulo, Brazil. For my undergraduate thesis, I joined the Conservation Biology Lab (LABIC) under the supervision of Dr. Mauro Galetti, where I conducted my first research project aimed at understanding the ecological role of frugivory and seed dispersal by the red-footed tortoise *Chelonoidis carbonaria*.
 
 <p style="font-family: Georgia, serif; font-size:14pt; font-style:italic">
     Hmm, "Ecology + Science", interesting! 
@@ -25,18 +25,17 @@ I have a Bachelor's degree in Ecology (2012-2016) at  the São Paulo State Unive
 knitr::include_graphics("images/Lais_photo_03.jpg")
 ```
 ::: {.extra-small-text .dark-gray-text .topbr}
-Installing camera traps was a huge part of my Masters and Ph.D. life
+Working with camera traps is a huge part of my academic/professional life.
 :::
 :::
 
-After that, I obtained a Master's degree in Ecology and Biodiversity (2017-2019) at the same university and supervisor. My research focused on evaluating the effect of pasture landscapes and livestock presence in the richness and diversity of medium and large-sized terrestrial mammals in the Atlantic Forest fragments through São Paulo state. It was extensive hours driving across the state, knowing special places, dealing with land owners and farmers, and installing dozens of camera traps. 
+After that, I obtained a Master’s degree in Ecology and Biodiversity (2017–2019) at the same university, under the supervision of the same advisor. My research focused on evaluating the effects of pasture landscapes and livestock presence on the richness and diversity of medium- and large-sized terrestrial mammals in Atlantic Forest fragments across São Paulo State. This work involved extensive hours driving across the state, getting to know remarkable places, working closely with landowners and farmers, and installing dozens of camera traps.
 
 <p style="font-family: Georgia, serif; font-size:14pt; font-style:italic">
     Hmmmm, "Ecology, Science + Conservation", let's go!
 </p>
 
-For my next step, I moved out of my comfort zone to pursue a Ph.D. in Biology at the University of Miami. I'm part of Dr. Kenneth Feeley's lab [Jungle Biology lab](https://www.junglebiology.org/). My current project aims to understand the ecological role of Lowland tapirs ( *Tapirus terrestris* ) in the Atlantic Forest, focusing on their dietary preferences and functional diversity, latrines' use by different vertebrate community to obtain food resources, and finally, understand the importance of latrines as nutrient sources for plants species germination and recruitment. 
-
+For my next step, I moved out of my comfort zone to pursue a Ph.D. in Biology at the University of Miami, where I was part of Dr. Kenneth Feeley’s lab, the [Jungle Biology lab](https://www.junglebiology.org/). My doctoral project aimed to understand the ecological role of lowland tapirs ( *Tapirus terrestris* ) in the Atlantic Forest, focusing on their dietary preferences and functional diversity, the use of latrines by different vertebrate communities to obtain food resources, and the importance of these latrines as nutrient sources for plant species germination and recruitment.
 
 ## {{< fa heart >}} him...
 
@@ -53,7 +52,7 @@ Black Sabbath concert in 2013
 :::
 :::
 
-13 years ago I found my best friend, my partner, and nowadays, my husband. I was so lucky to find another ecologist, a brilliant scientist, a super nerd with the kindest heart - and since then, we are sharing this crazy life together. 
+14 years ago I found my best friend, my partner, and nowadays, my husband. I was so lucky to find another ecologist, a brilliant scientist, a super nerd with the kindest heart - and since then, we are sharing this crazy life together. 
 
 ILY, Y. <3
 
@@ -73,9 +72,8 @@ One of our favorite hobbies: birdwatching <3
 :::
 :::
 
-It was my first time traveling to another country completely by myself. Also my first time in which I would rely completely on my English (thanks to years of language lessons!) and communication/survival skills. 
-I must say, it was/is not easy. Miami has this wild vibe, and full of 'latinos' everywhere - at least my Spanish definitely improved. It is a total different experience living in another country with distinct costumes, cuisine, rules, and AC at home 24h a day.
+It was my first time traveling to another country completely by myself — and also the first time I had to rely entirely on my English (thanks to years of language lessons!) and my communication and survival skills. I must say, it wasn’t easy. Miami has a wild vibe and is full of Latinos everywhere — at least my Spanish definitely improved. Living in another country, with different customs, cuisine, rules, and air conditioning running at home 24 hours a day, was a totally different experience.
 
-Anyway, I would say I adapted - as much as I could.
-Even doing my project in Brazil and traveling there for a few months every year, Miami do not scare me anymore (just a little bit). 
-I have my husband and my cats with me here, so I can call this place as "home" (temporarily) :)
+Still, I would say I adapted — as much as I could. Even though I conducted my project in Brazil and traveled there for a few months every year, Miami didn’t scare me anymore (well… just a little bit). Having my husband and my cats there with me made all the difference, and it allowed me to call that place “home,” even if temporarily.
+
+Now, after completing my Ph.D. and moving back to Brazil, I look back on this journey with gratitude. I’ve grown in so many ways, and I feel ready and excited for the upcoming adventures ahead.

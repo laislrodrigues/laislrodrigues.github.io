@@ -1,0 +1,32 @@
+---
+title: "Habitat fragmentation explains the occupancy probability of the largest herbivore in the Neotropical forests"
+
+description: |
+ Here, we surveyed 42 forest landscapes in the Brazilian Atlantic forest for lowland tapir ( *Tapirus terrestris* ) using camera traps, analyzed landscape structure based on thematic maps, and assessed the matrix vegetation heterogeneity using satellite image texture.
+ 
+date: 2025-11-15
+categories: [Scientific Articles]
+image: Regolin-etal-figure.png
+draft: false
+---
+
+Large mammals play an important role in ecosystem functioning, yet the loss of natural vegetation cover due to
+conversion to agriculture and other land uses has pushed wildlife into small and impoverished habitats. Thus, it
+is paramount to understand how landscape structure enables large mammals to thrive in tropical rainforests. We
+surveyed 42 forest landscapes in the Brazilian Atlantic forest for lowland tapir (Tapirus terrestris) using camera
+traps, analyzed landscape structure based on thematic maps, and assessed the matrix vegetation heterogeneity
+using satellite image texture. To evaluate the multiscale effects of the predictive variables on the species’
+occurrence probability, we used a single-season occupancy approach. Beyond advancing the understanding of
+the species’ habitat requirements in human-modified landscapes, we used the species as a model to test theoretical
+predictions about the scale of effect (SoE), which have yet to be empirically evaluated. Habitat loss and
+fragmentation per se reduced the lowland tapir’s occurrence, as did matrix vegetation heterogeneity. Different
+landscape metrics influenced species occupancy at distinct spatial scales, and the SoE of fragmentation metrics
+was not smaller than habitat amount. Habitat fragmentation at a wide scale was the main predictor of species
+occupancy probability. Our findings highlight the critical role of habitat spatial structure in shaping the distribution
+of the lowland tapir in human-modified landscapes. Beyond protecting large forest remnants, it is recommended
+to increase landscape connectivity at a broad scale through ecosystem restoration efforts to safeguard
+the species’ persistence in the Brazilian Atlantic Forest.
+
+REGOLIN, A. L., COLLEVATTI, R. G., BAILEY, L. L., BOSCOLO, D., *LAUTENSCHLAGER, L.*, BECA, G., BRITO DIAS, V., & GALETTI, M. (2025). *Biological Conservation*
+
+DOI: [10.1016/j.biocon.2025.111413](https://doi.org/10.1016/j.biocon.2025.111413)
