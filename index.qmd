@@ -1,4 +1,5 @@
 ---
+pagetitle: "home"
 title: ""
 image: images/Lais_photo_FSD.jpg
 toc: false
