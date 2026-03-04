@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c9c8178b26dc656df206b916af974202.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-74452ba867c695fbff64e0450387dd5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -123,7 +124,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -141,9 +142,7 @@ window.Quarto = {
 
 <meta property="og:title" content="publications">
 <meta property="og:description" content="check it out some interesting papers I published over the years :)">
-<meta property="og:image" content="https://laislrodrigues.github.io/projects/2025-11-15-BiologicalConservation/Regolin-etal-figure.png">
-<meta property="og:image:height" content="778">
-<meta property="og:image:width" content="778">
+<meta property="og:image" content="https://laislrodrigues.github.io/projects/2026-02-25-EcologyandEvolution/graph-abstr.jpg">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -154,7 +153,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logos/tapir-paw_003.png" alt="Tapir paw" class="navbar-logo">
+    <img src="./images/logos/tapir-paw_003.png" alt="Tapir paw" class="navbar-logo light-content">
+    <img src="./images/logos/tapir-paw_003.png" alt="Tapir paw" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Laís Lautenschlager, Ph.D.</span>
@@ -263,7 +263,31 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1763175600000" data-listing-file-modified-sort="1770317010351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="g-col-1" data-index="0" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1771988400000" data-listing-file-modified-sort="1772625859169" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
+<a href="./projects/2026-02-25-EcologyandEvolution/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/2026-02-25-EcologyandEvolution/graph-abstr.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Unveiling the Dietary Selection of Lowland Tapirs (<em>Tapirus terrestris</em>) in a Tropical Rainforest
+</h5>
+<div class="card-text listing-description delink">
+<p>This is the second chapter of my Ph.D.&nbsp;dissertation, in which we investigated the dietary selection of lowland tapirs in the Atlantic Forest (Brazil). We combined fieldwork, DNA metabarcoding, and non-permanent plots to understand if this species was consuming plant traits under the Leaf Economics…</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Feb 25, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1763175600000" data-listing-file-modified-sort="1770317010351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
 <a href="./projects/2025-11-15-BiologicalConservation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -287,7 +311,7 @@ Nov 15, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1738897200000" data-listing-file-modified-sort="1742854609193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
+<div class="g-col-1" data-index="2" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1738897200000" data-listing-file-modified-sort="1742854609193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
 <a href="./projects/2025-03-21-AnnalsBotGarden/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -311,7 +335,7 @@ Feb 7, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1725246000000" data-listing-file-modified-sort="1728660876338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304">
+<div class="g-col-1" data-index="3" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1725246000000" data-listing-file-modified-sort="1728660876338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304">
 <a href="./projects/2024-09-02-UrbanForestyandUrbanGreening/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -335,7 +359,7 @@ Sep 2, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1721012400000" data-listing-file-modified-sort="1721071363006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
+<div class="g-col-1" data-index="4" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1721012400000" data-listing-file-modified-sort="1721071363006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
 <a href="./projects/2024-07-15-RestorationEcology/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -359,7 +383,7 @@ Jul 15, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1718593200000" data-listing-file-modified-sort="1721071328340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
+<div class="g-col-1" data-index="5" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1718593200000" data-listing-file-modified-sort="1721071328340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
 <a href="./projects/2024-06-17-PNAS/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -383,7 +407,7 @@ Jun 17, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1713409200000" data-listing-file-modified-sort="1721071271573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="371">
+<div class="g-col-1" data-index="6" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1713409200000" data-listing-file-modified-sort="1721071271573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="371">
 <a href="./projects/2024-04-18-GECCO/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -407,7 +431,7 @@ Apr 18, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1712890800000" data-listing-file-modified-sort="1721071233022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="g-col-1" data-index="7" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1712890800000" data-listing-file-modified-sort="1721071233022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
 <a href="./projects/2024-04-12-EcologyDatapaper/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -431,7 +455,7 @@ Apr 12, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1710903600000" data-listing-file-modified-sort="1721068136488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
+<div class="g-col-1" data-index="8" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1710903600000" data-listing-file-modified-sort="1721068136488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
 <a href="./projects/2024-03-20-FYMinds/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -455,7 +479,7 @@ Mar 20, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1652670000000" data-listing-file-modified-sort="1721071189450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
+<div class="g-col-1" data-index="9" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1652670000000" data-listing-file-modified-sort="1721071189450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
 <a href="./projects/2022-05-16-ActaOecologica/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -479,7 +503,7 @@ May 16, 2022
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1610593200000" data-listing-file-modified-sort="1721071120503" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<div class="g-col-1" data-index="10" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1610593200000" data-listing-file-modified-sort="1721071120503" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <a href="./projects/2021-01-14-BookChapter_Galetti_etal/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -503,7 +527,7 @@ Jan 14, 2021
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1598756400000" data-listing-file-modified-sort="1721068022787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="g-col-1" data-index="11" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1598756400000" data-listing-file-modified-sort="1721068022787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <a href="./projects/2020-01-05_BiologicalConservation/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -527,7 +551,7 @@ Aug 30, 2020
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1598756400000" data-listing-file-modified-sort="1721071090283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
+<div class="g-col-1" data-index="12" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1598756400000" data-listing-file-modified-sort="1721071090283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
 <a href="./projects/2020-05-19-NeotropicalCarnivores/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -551,7 +575,7 @@ Aug 30, 2020
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1560135600000" data-listing-file-modified-sort="1721071043195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+<div class="g-col-1" data-index="13" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1560135600000" data-listing-file-modified-sort="1721071043195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
 <a href="./projects/2019-06-10-AtlanticMammals/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -575,7 +599,7 @@ Jun 10, 2019
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1506567600000" data-listing-file-modified-sort="1721068004907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+<div class="g-col-1" data-index="14" data-categories="U2NpZW50aWZpYyUyMEFydGljbGVz" data-listing-date-sort="1506567600000" data-listing-file-modified-sort="1721068004907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
 <a href="./projects/2017-09-28-PECON/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -653,13 +677,14 @@ Sep 28, 2017
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
