@@ -1,4 +1,4 @@
-Terminal:
+gTerminal:
 
 git add .
 
