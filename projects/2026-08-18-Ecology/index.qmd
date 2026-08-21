@@ -1,0 +1,17 @@
+---
+title: "NeoUngulatesDiet: A database of ungulate diets in the Neotropics"
+
+description: |
+ A comprehensive data paper compiling dietary information for all ungulate species across the entire Neotropics.
+ 
+date: 2026-08-18
+categories: [Scientific Articles]
+image: datapaper-map.jpg
+draft: false
+---
+
+Ungulates play a crucial ecological role in tropical forests by influencing various ecosystem processes, including herbivory, seed dispersal and predation, and seedling recruitment. These large mammalian herbivores, including tapirs, camelids, cervids, and peccaries, have a significant impact on plant community structure, composition, and dynamics, especially in the Neotropics. Despite their ecological importance, a systematic understanding of ungulate dietary information has been lacking. The *NeoUngulatesDiet* database addresses this gap by compiling data from a wide range of sources, including peer-reviewed literature and gray literature such as master’s dissertations, Ph.D. theses, and book chapters. *NeoUngulatesDiet* represents a comprehensive compilation of 200 studies conducted between 1976 and 2025. It includes data from 17 countries, 224 plant families, 1135 plant genera, and 2624 plant species consumed by 21 of 28 ungulate species across the Neotropical region. The database comprises a comprehensive repository of consumed plants, including their growth forms, the parts eaten, and associated animal feeding habits. It also provides key information for dietary studies, such as the methodology used, study locations, and the years in which data were collected. This compilation enables researchers to explore the dietary preferences and ecological roles of various ungulate species, which differ in digestive systems, body sizes, and feeding habits. The dataset highlights the need for conservation strategies, particularly for seven understudied Neotropical species for which no dietary information is currently available. Therefore, *NeoUngulatesDiet* serves as a valuable resource for conservation practitioners, supporting the design and implementation of targeted strategies to preserve biodiversity and ecosystem function in the Neotropical region. The data are released under a CC BY 4.0 license. This paper should be cited when the data are used in publications.
+
+*LAUTENSCHLAGER, L.*, VELOSO, M. E. V., SOUZA, Y., RIBEIRO, L. G., MELO-DIAS, M., MONTOYA, S., MORINI, R. F. S., PINTO, B. A., GALETTI, M., & FEELEY, K. J. (2026). *Ecology*
+
+DOI: [10.1002/ecy.70389](https://doi.org/10.1002/ecy.70389)
